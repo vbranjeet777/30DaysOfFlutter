@@ -14,9 +14,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        //themeMode: ThemeMode.light,
-        //theme: ThemeData(primarySwatch: Colors.deepPurple),
-        initialRoute: "/login",
+        themeMode: ThemeMode.light,
+        theme: ThemeData(primarySwatch: Colors.deepPurple),
+        initialRoute: MyRoutes.homeRoutes,
         routes: {
           "/": (context) => LoginPage(),
           MyRoutes.homeRoutes: (context) => HomePage(),
