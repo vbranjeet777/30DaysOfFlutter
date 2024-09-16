@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
-import 'package:flutter_catalog/widgets/drawer.dart';
 import 'package:flutter_catalog/widgets/item_widget.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 
@@ -25,21 +24,15 @@ class HomePage extends StatelessWidget {
                 height: 20,
               ),
               Expanded(
-                child: Container(
-                  //height: 600,
-                  padding: EdgeInsets.all(10.0),
-                  child: Expanded(
-                    child: ListView.builder(
-                      shrinkWrap: true,
-                      itemCount: dummyList.length,
-                      itemBuilder: (context, index) {
-                        return ItemWidget(
-                          item: dummyList[index],
-                          key: ValueKey("a"),
-                        );
-                      },
-                    ),
-                  ),
+                child: ListView.builder(
+                  shrinkWrap: true,
+                  itemCount: dummyList.length,
+                  itemBuilder: (context, index) {
+                    return ItemWidget(
+                      item: dummyList[index],
+                      key: ValueKey("a"),
+                    );
+                  },
                 ),
               ),
             ],
