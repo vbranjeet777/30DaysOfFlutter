@@ -5,6 +5,7 @@ import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 
 void main() {
+  //Day12  learn new things about Widgets
   runApp(MyApp());
 }
 
