@@ -19,12 +19,57 @@ class ItemWidget extends StatelessWidget {
                     color: MyTheme.creameColor,
                     borderRadius: BorderRadius.circular(10.0)),
                 padding: EdgeInsets.all(7),
-                height: 110,
-                width: 90,
+                height: 120,
+                width: 100,
                 child: Image.asset(
                   item.image,
                 ),
               ),
+              SizedBox(
+                width: 30,
+              ),
+              Expanded(
+                  child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    item.name,
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    item.desc,
+                    style: TextStyle(color: Colors.black45),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "\$${item.price}",
+                        textScaler: TextScaler.linear(1.5),
+                        style: TextStyle(
+                            //color: Colors.deepPurple,
+                            fontWeight: FontWeight.bold),
+                      ),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Buy",
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                        style: ButtonStyle(
+                            //shape: WidgetStatePropertyAll(),
+                            //iconSize: WidgetStatePropertyAll(1.0),
+                            backgroundColor:
+                                WidgetStatePropertyAll(Colors.deepPurple)),
+                      ),
+                      //Padding(padding: EdgeInsets.only(right: 0.1))
+                    ],
+                  ),
+                ],
+              )),
             ],
           ),
           height: 120,
