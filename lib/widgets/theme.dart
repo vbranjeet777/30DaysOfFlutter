@@ -10,6 +10,6 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext context) =>
       ThemeData(brightness: Brightness.dark);
 
-  static Color creameColor = Color.fromARGB(255, 234, 234, 234);
-  static Color darkBluishColor = Color(0xff403b58);
+  static Color creameColor = Color.fromARGB(255, 228, 228, 228);
+  static Color darkBluishColor = Color.fromARGB(255, 75, 70, 105);
 }
