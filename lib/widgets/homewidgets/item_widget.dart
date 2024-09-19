@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
+import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/theme.dart';
 
 class ItemWidget extends StatelessWidget {
@@ -52,7 +53,10 @@ class ItemWidget extends StatelessWidget {
                             fontWeight: FontWeight.bold),
                       ),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(
+                              context, MyRoutes.homeDetailsRoutes);
+                        },
                         child: Text(
                           "Buy",
                           style: TextStyle(
