@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/pages/home_details_page.dart';
-import 'package:flutter_catalog/pages/home_page.dart';
+import 'package:flutter_catalog/pages/homepageall/cart_page.dart';
+import 'package:flutter_catalog/pages/homepageall/home_details_page.dart';
+import 'package:flutter_catalog/pages/homepageall/home_page.dart';
 import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
-import 'package:flutter_catalog/widgets/theme.dart';
+import 'package:flutter_catalog/utils/theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
           MyRoutes.homeRoutes: (context) => HomePage(),
           MyRoutes.loginRoutes: (context) => LoginPage(),
           MyRoutes.homeDetailsRoutes: (context) => HomeDetailsPage(),
+          MyRoutes.cartRoutes: (context) => CartPage(),
         });
   }
 }

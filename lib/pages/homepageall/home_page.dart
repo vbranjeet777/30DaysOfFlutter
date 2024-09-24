@@ -1,8 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
-import 'package:flutter_catalog/widgets/homewidgets/catalog_header.dart';
-import 'package:flutter_catalog/widgets/homewidgets/item_widget.dart';
-import 'package:flutter_catalog/widgets/theme.dart';
+import 'package:flutter_catalog/pages/homepageall/catalog_header.dart';
+import 'package:flutter_catalog/pages/homepageall/item_widget.dart';
+import 'package:flutter_catalog/utils/routes.dart';
+import 'package:flutter_catalog/utils/theme.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -14,6 +16,15 @@ class HomePage extends StatelessWidget {
     final dummyList = List.generate(200, (index) => CatalogModels.items[0]);
     return Scaffold(
       backgroundColor: MyTheme.creameColor,
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.deepPurple,
+        onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoutes),
+        child: Icon(
+          size: 22,
+          CupertinoIcons.cart,
+          color: Colors.white,
+        ),
+      ),
       body: SafeArea(
         child: Container(
           padding: EdgeInsets.only(top: 20, left: 15, right: 10),
@@ -53,4 +64,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-

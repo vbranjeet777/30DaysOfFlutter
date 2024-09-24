@@ -1,7 +1,8 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
 import 'package:flutter_catalog/utils/routes.dart';
-import 'package:flutter_catalog/widgets/theme.dart';
+import 'package:flutter_catalog/utils/theme.dart';
 
 class ItemWidget extends StatelessWidget {
   final Item item;

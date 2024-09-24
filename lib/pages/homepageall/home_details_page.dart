@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/widgets/theme.dart';
+import 'package:flutter_catalog/utils/theme.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class HomeDetailsPage extends StatelessWidget {
@@ -8,10 +8,12 @@ class HomeDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+       
       appBar: AppBar(
+        backgroundColor: MyTheme.creameColor,
         title: Text(
           "Products Details",
-          style: TextStyle(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 21),
         ),
       ),
       bottomNavigationBar: Container(
@@ -65,11 +67,11 @@ class HomeDetailsPage extends StatelessWidget {
                             fontSize: 22, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        "Details of iPhone 12 pro",
+                        "Details of iPhone 12 pro This was one eye-catching phone out of the box. Compared to the standard iPhone 12’s glossy glass back, the bead-blasted glass of the Pro models is a subtly luxurious and almost soft finish. I chose the silver model, which I still think is the nicest of the four colours it was available in at launch — the others being graphite, gold, and a finish Apple insists on calling “pacific blue”, all lowercase.",
                         style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 12,
                         ),
-                      )
+                      ).py12().px12()
                     ],
                   ).py64(),
                 ),
