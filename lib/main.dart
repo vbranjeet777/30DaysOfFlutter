@@ -6,8 +6,6 @@ import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/utils/theme.dart';
 
-//learning about light and dark theme
-
 void main() {
   runApp(MyApp());
 }
