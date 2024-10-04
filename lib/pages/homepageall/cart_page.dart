@@ -41,14 +41,24 @@ class _CartPageState extends State<CartPage> {
             size: 50,
             color: Colors.red,
           ),
-          Container(
-            color: Colors.amberAccent,
-            height: 40,
-          ),
           ClipRRect(
               borderRadius: BorderRadius.circular(40),
               child: Image.network(
                   'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg')),
+          SizedBox(
+            height: 50,
+          ),
+          Card(
+            elevation: 50,
+            color: Colors.red,
+            shadowColor: Colors.green,
+            surfaceTintColor: Colors.amberAccent,
+            clipBehavior: Clip.none,
+            child: SizedBox(
+              height: 70,
+              width: 400,
+            ),
+          ),
         ],
       ),
     );
