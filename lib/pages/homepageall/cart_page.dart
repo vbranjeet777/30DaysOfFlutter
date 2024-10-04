@@ -20,44 +20,308 @@ class _CartPageState extends State<CartPage> {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
       ),
-      body: Column(
+      body: ListView(
+        
+        scrollDirection: Axis.vertical,
         children: [
-          Center(
-            child: Text.rich(TextSpan(
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black),
-                children: <InlineSpan>[
-                  TextSpan(
-                    text: "Rajs ",
-                    style: TextStyle(fontSize: 40, color: Colors.red),
-                  ),
-                  TextSpan(text: "Noni")
-                ])),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
           ),
-          Icon(
-            Icons.favorite_border_outlined,
-            size: 50,
-            color: Colors.red,
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
           ),
-          ClipRRect(
-              borderRadius: BorderRadius.circular(40),
-              child: Image.network(
-                  'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg')),
-          SizedBox(
-            height: 50,
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
           ),
-          Card(
-            elevation: 50,
-            color: Colors.red,
-            shadowColor: Colors.green,
-            surfaceTintColor: Colors.amberAccent,
-            clipBehavior: Clip.none,
-            child: SizedBox(
-              height: 70,
-              width: 400,
-            ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+           ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+           ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+           ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+           ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+           ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
+            
+          ),
+          ListTile(
+            leading: Image.network(
+                'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg'),
+            title: Text("Ranjeet"),
+            subtitle: Text("App Developer || Flutter"),
+            trailing: Icon(Icons.arrow_forward_ios),
           ),
         ],
       ),
