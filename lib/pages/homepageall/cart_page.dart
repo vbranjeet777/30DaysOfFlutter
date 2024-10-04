@@ -16,23 +16,17 @@ class CartPage extends StatelessWidget {
         ),
       ),
       body: Center(
-          child: RichText(
-              text: TextSpan(
-                  style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.normal,
-                      color: Colors.black),
-                  children: <InlineSpan>[
-            TextSpan(
-                text: "Ranjeet ",
-                style: TextStyle(
-                    fontSize: 40,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.redAccent)),
-            TextSpan(
-              text: "Kushwaha",
-            ),
-          ]))),
+        child: Text.rich(TextSpan(
+            style: TextStyle(
+                fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black),
+            children: <InlineSpan>[
+              TextSpan(
+                text: "Rajs ",
+                style: TextStyle(fontSize: 40, color: Colors.red),
+              ),
+              TextSpan(text: "Noni")
+            ])),
+      ),
     );
   }
 }
