@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/utils/theme.dart';
 
-class CartPage extends StatelessWidget {
+class CartPage extends StatefulWidget {
   const CartPage({super.key});
 
+  @override
+  State<CartPage> createState() => _CartPageState();
+}
+
+class _CartPageState extends State<CartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,8 +40,15 @@ class CartPage extends StatelessWidget {
             Icons.favorite_border_outlined,
             size: 50,
             color: Colors.red,
-            
           ),
+          Container(
+            color: Colors.amberAccent,
+            height: 40,
+          ),
+          ClipRRect(
+              borderRadius: BorderRadius.circular(40),
+              child: Image.network(
+                  'https://st3.depositphotos.com/12982378/33673/i/450/depositphotos_336731230-stock-photo-confident-young-woman-holding-digital.jpg')),
         ],
       ),
     );
